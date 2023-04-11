@@ -1,0 +1,62 @@
+digraph {
+	graph [rankdir=RL ratio=compress size="5,5"]
+	0 [label=S]
+	0 -> 1
+	1 [label=C]
+	1 -> 2
+	2 [label=PP]
+	2 -> 3
+	3 [label=pp]
+	4 [label="בְּ"]
+	3 -> 4
+	2 -> 5
+	5 [label=n]
+	6 [label="רֵאשִׁ֖ית"]
+	5 -> 6
+	1 -> 7
+	7 [label=VP]
+	7 -> 8
+	8 [label=vb]
+	9 [label="בָּרָ֣א"]
+	8 -> 9
+	1 -> 10
+	10 [label=NP]
+	10 -> 11
+	11 [label=n]
+	12 [label="אֱלֹהִ֑ים"]
+	11 -> 12
+	1 -> 13
+	13 [label=PP]
+	13 -> 14
+	14 [label=U]
+	14 -> 15
+	15 [label=pp]
+	16 [label="אֵ֥ת"]
+	15 -> 16
+	14 -> 17
+	17 [label=dt]
+	18 [label="הַ"]
+	17 -> 18
+	14 -> 19
+	19 [label=n]
+	20 [label="שָּׁמַ֖יִם"]
+	19 -> 20
+	13 -> 21
+	21 [label=cj]
+	22 [label="וְ"]
+	21 -> 22
+	13 -> 23
+	23 [label=U]
+	23 -> 24
+	24 [label=pp]
+	25 [label="אֵ֥ת"]
+	24 -> 25
+	23 -> 26
+	26 [label=dt]
+	27 [label="הָ"]
+	26 -> 27
+	23 -> 28
+	28 [label=n]
+	29 [label="אָֽרֶץ"]
+	28 -> 29
+}
