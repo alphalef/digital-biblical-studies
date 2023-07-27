@@ -1,0 +1,102 @@
+digraph {
+	graph [rankdir=RL ratio=compress size="10,10"]
+	0 [label=S]
+	0 -> 1
+	1 [label=C]
+	1 -> 2
+	2 [label=CP]
+	2 -> 3
+	3 [label=cj]
+	4 [label=wa]
+	3 -> 4
+	1 -> 5
+	5 [label=VP]
+	5 -> 6
+	6 [label=vb]
+	7 [label="ttiṯḥannen-"]
+	6 -> 7
+	1 -> 8
+	8 [label=PP]
+	8 -> 9
+	9 [label=pp]
+	10 [label="lˈô"]
+	9 -> 10
+	1 -> 11
+	11 [label=Cadju]
+	11 -> 12
+	12 [label=VP]
+	12 -> 13
+	13 [label=pp]
+	14 [label="lᵊ"]
+	13 -> 14
+	12 -> 15
+	15 [label=vb]
+	16 [label="hˈaʕᵃvîr"]
+	15 -> 16
+	11 -> 17
+	17 [label=PP]
+	17 -> 18
+	18 [label=pp]
+	19 [label="ʔeṯ-"]
+	18 -> 19
+	17 -> 20
+	20 [label=U]
+	20 -> 21
+	21 [label=n]
+	22 [label="rāʕˌaṯ"]
+	21 -> 22
+	17 -> 23
+	23 [label=U]
+	23 -> 24
+	24 [label="n-pr"]
+	25 [label="hāmˈān"]
+	24 -> 25
+	17 -> 26
+	26 [label=dt]
+	27 [label="hˈā"]
+	26 -> 27
+	17 -> 28
+	28 [label=aj]
+	29 [label="ʔᵃḡāḡˈî"]
+	28 -> 29
+	17 -> 30
+	30 [label=cj]
+	31 [label="wᵊ"]
+	30 -> 31
+	17 -> 32
+	32 [label=pp]
+	33 [label="ʔˌēṯ"]
+	32 -> 33
+	17 -> 34
+	34 [label=n]
+	35 [label="mˈaḥᵃšavtˈô"]
+	34 -> 35
+	17 -> 36
+	36 [label=Cattr]
+	36 -> 37
+	37 [label=CP]
+	37 -> 38
+	38 [label=cj]
+	39 [label="ʔᵃšˌer"]
+	38 -> 39
+	36 -> 40
+	40 [label=VP]
+	40 -> 41
+	41 [label=vb]
+	42 [label="ḥāšˌav"]
+	41 -> 42
+	36 -> 43
+	43 [label=PP]
+	43 -> 44
+	44 [label=pp]
+	45 [label="ʕal-"]
+	44 -> 45
+	43 -> 46
+	46 [label=dt]
+	47 [label=ha]
+	46 -> 47
+	43 -> 48
+	48 [label=aj]
+	49 [label="yyᵊhûḏˈîm"]
+	48 -> 49
+}
